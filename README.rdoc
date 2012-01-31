@@ -1,0 +1,5 @@
+== Programas simples en C 
+
+Esta es una colección de programas simples escritos en C para ser usados en el curso TI-3404 Lenguajes de Programación del Instituto Tecnológico de Costa Rica. 
+
+El código presentado debe ser usado con fines puramente didácticos.
