@@ -12,6 +12,7 @@ struct rectangulo {
 
 void main(){
 	struct rectangulo r1;
+	struct rectangulo r2 = {{0,0},{4,3}};
 	r1.pt1.x = 0;
 	r1.pt1.y = 0;
 	r1.pt2.x = 4;

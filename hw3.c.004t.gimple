@@ -1,0 +1,68 @@
+__sputc (_c, _p)
+{
+  int D.1735;
+  int D.1736;
+  int D.1737;
+  int D.1738;
+  int D.1739;
+  char D.1740;
+  int D.1741;
+  unsigned char * D.1742;
+  unsigned char * D.1743;
+  unsigned char D.1744;
+  unsigned char D.1745;
+  int D.1746;
+
+  D.1735 = _p->_w;
+  D.1736 = D.1735 - 1;
+  _p->_w = D.1736;
+  D.1737 = _p->_w;
+  if (D.1737 >= 0)
+    {
+      goto <D1733>;
+    }
+  else
+    {
+      
+    }
+  D.1738 = _p->_w;
+  D.1739 = _p->_lbfsize;
+  if (D.1738 < D.1739)
+    {
+      goto <D1734>;
+    }
+  else
+    {
+      
+    }
+  D.1740 = (char) _c;
+  if (D.1740 != 10)
+    {
+      goto <D1733>;
+    }
+  else
+    {
+      goto <D1734>;
+    }
+  <D1733>:;
+  D.1742 = _p->_p;
+  D.1744 = (unsigned char) _c;
+  *D.1742 = D.1744;
+  D.1745 = *D.1742;
+  D.1741 = (int) D.1745;
+  D.1743 = D.1742 + 1B;
+  _p->_p = D.1743;
+  return D.1741;
+  <D1734>:;
+  D.1746 = __swbuf (_c, _p);
+  D.1741 = D.1746;
+  return D.1741;
+}
+
+
+main ()
+{
+  printf (&"Hello, World!"[0]);
+}
+
+

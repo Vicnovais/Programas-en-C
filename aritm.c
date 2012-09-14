@@ -10,7 +10,7 @@ int main(void)
     for (i = 0; i < 6; i++)
     {
 		printf("arreglo[%d] = %d   ",i,arreglo[i]);
-		printf("ptr + %d = %d\n",i, *++ptr);
+		printf("*(++ptr) = %d\n",*(++ptr));
     }
     return 0;
 }
