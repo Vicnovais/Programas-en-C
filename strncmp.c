@@ -16,11 +16,11 @@ int strcmp(char *s, char *t) {
 }
 
 //strncmp
-int strncmp(char* str1, char* str2, int n)
+int strncmp(char* s1, char* s2, int n)
 {
     while(n--)
-        if(*str1++ != *str2++)
-            return *(str1 - 1) - *(str2 - 1);
+        if(*s1++ != *s2++)
+            return *(s1 - 1) - *(s2 - 1);
     return 0;
 }
 
