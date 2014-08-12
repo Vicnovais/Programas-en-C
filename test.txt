@@ -1,0 +1,11 @@
+hola 
+soy un archivo de texto
+esta es la tercera linea
+hoy es jueves
+no quiero poner tildes
+fin
+esta es una nueva lina
+esta es otra linea
+
+
+
