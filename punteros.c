@@ -2,8 +2,8 @@
 
 int main()
 {
-	int j;
-	int k;
+
+	int j, k;
 	int *ptr;
 	    j = 1;
 	    k = 2;
@@ -17,4 +17,6 @@ int main()
 	    k = 8;
 	    printf("el valor nuevo del entero al que apunta ptr es %d\n",*ptr);
     return 0;
+
 }
+
